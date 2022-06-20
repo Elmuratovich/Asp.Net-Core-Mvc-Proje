@@ -33,7 +33,7 @@ namespace ProjeCore.Controllers
                 ClaimsPrincipal principal = new ClaimsPrincipal(useridentity);
                 await HttpContext.SignInAsync(principal);
 
-                return RedirectToAction("Index", "Personelim");
+                return RedirectToAction("Index", "Default");
             }
             return View();
         }

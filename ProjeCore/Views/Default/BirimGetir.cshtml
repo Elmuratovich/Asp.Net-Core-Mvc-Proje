@@ -7,11 +7,11 @@
 <br />
 
 @using (Html.BeginForm("BirimGuncelle", "Default", FormMethod.Post)){
-    <b>Birim ID</b>
+    <b>Сабак ID</b>
     @Html.TextBoxFor(x => x.BirimID, new { @class = "form-control" })
     <br>
-    <b>Birim Adi</b>
+    <b>Сабактын аты</b>
     @Html.TextBoxFor(x => x.BirimAd, new { @class="form-control" })
     <br />
-    <button class="btn btn-default" style="background-color: #ebdede; color: black;">Birim Guncelle</button>
+    <button class="btn btn-default" style="background-color: #ebdede; color: black;">Өзгөртүүнү кошуу</button>
 }

@@ -1,0 +1,28 @@
+﻿@model ProjeCore.Models.Personel
+
+@{
+    ViewData["Title"] = "PersonelGetir";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<h2>Мугалимди өзгөртүү</h2>
+
+
+@using (Html.BeginForm("PersonelGetir", "Personelim", FormMethod.Post)){
+    <b>Мугалим ID</b>
+    @Html.TextBoxFor(x => x.PersonelID, new { @class = "form-control" })
+    <br>
+    <b>Мугалимдин аты</b>
+    @Html.TextBoxFor(x => x.Ad, new { @class="form-control" })
+    <br />
+    <b>Мугалимдин фамилясы</b>
+    @Html.TextBoxFor(x => x.Soyad, new { @class="form-control" })
+    <br />
+    <b>Мугалимдин шаары</b>
+    @Html.TextBoxFor(x => x.Sehir, new { @class="form-control" })
+    <br />
+    <b>Сабакты өзгөртүү</b>
+    @Html.DropDownListFor(x => x.Birim.BirimID, (List<SelectListItem>)ViewBag.dgr, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-default" style="background-color: #ebdede; color: black;">Өзгөртүүнү кошуу</button>
+}

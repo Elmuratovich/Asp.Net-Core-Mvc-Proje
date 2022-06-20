@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z6rXKaW2JxVCB7TKRhzT5Huoms9aH5200JBgodEmi6hc+QRYrBgMP54va5H6X6xiAROLxjOJ1kZjDU64OY5Jtg==",
+  "dgSpecHash": "+upg3OZGcGZ5q32zDyo3dkk79GQHFmL1ZuAsI/D8y3Q5Rx0Y604zr7DhLN+eQWmNnivoQU1+mc7agLKfDcqhzA==",
   "success": true,
-  "projectFilePath": "D:\\NewProje\\ProjeCore\\ProjeCore\\ProjeCore.csproj",
+  "projectFilePath": "D:\\NewProje\\Asp.Net-Core-Mvc-Proje\\ProjeCore\\ProjeCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\makhm\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\makhm\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.26\\microsoft.aspnetcore.mvc.razor.extensions.3.1.26.nupkg.sha512",

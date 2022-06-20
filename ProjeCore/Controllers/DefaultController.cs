@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ProjeCore.Models;
 using System.Linq;
 
@@ -7,6 +8,7 @@ namespace ProjeCore.Controllers
     public class DefaultController : Controller
     {
         Context c = new Context();
+        [Authorize]
         public IActionResult Index()
         {
             var degerler = c.Birims.ToList();

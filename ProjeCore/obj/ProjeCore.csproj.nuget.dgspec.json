@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NewProje\\ProjeCore\\ProjeCore\\ProjeCore.csproj": {}
+    "D:\\NewProje\\Asp.Net-Core-Mvc-Proje\\ProjeCore\\ProjeCore.csproj": {}
   },
   "projects": {
-    "D:\\NewProje\\ProjeCore\\ProjeCore\\ProjeCore.csproj": {
+    "D:\\NewProje\\Asp.Net-Core-Mvc-Proje\\ProjeCore\\ProjeCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NewProje\\ProjeCore\\ProjeCore\\ProjeCore.csproj",
+        "projectUniqueName": "D:\\NewProje\\Asp.Net-Core-Mvc-Proje\\ProjeCore\\ProjeCore.csproj",
         "projectName": "ProjeCore",
-        "projectPath": "D:\\NewProje\\ProjeCore\\ProjeCore\\ProjeCore.csproj",
+        "projectPath": "D:\\NewProje\\Asp.Net-Core-Mvc-Proje\\ProjeCore\\ProjeCore.csproj",
         "packagesPath": "C:\\Users\\makhm\\.nuget\\packages\\",
-        "outputPath": "D:\\NewProje\\ProjeCore\\ProjeCore\\obj\\",
+        "outputPath": "D:\\NewProje\\Asp.Net-Core-Mvc-Proje\\ProjeCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\makhm\\AppData\\Roaming\\NuGet\\NuGet.Config",

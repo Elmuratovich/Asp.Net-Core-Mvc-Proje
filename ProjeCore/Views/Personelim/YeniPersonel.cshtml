@@ -1,22 +1,26 @@
 ﻿@model ProjeCore.Models.Personel
 
+
 @{
     ViewData["Title"] = "YeniPersonel";
     Layout = "~/Views/Shared/_TestLayout.cshtml";
 }
+<br />
+<h2 style="text-align: center;">Жаңы мугалим кошуу</h2>
+<br />
 
 <form class="form-group" method="post">
-    <b>Personel Adi</b>
+    <b>Мугалимдин аты</b>
     @Html.TextBoxFor(x => x.Ad, new { @class = "form-control" })
     <br />
-     <b>Personel Soyadi</b>
+     <b>Мугалимдин фамилясы</b>
     @Html.TextBoxFor(x => x.Soyad, new { @class = "form-control" })
     <br />
-     <b>Sehir</b>
+     <b>Шаары</b>
     @Html.TextBoxFor(x => x.Sehir, new { @class = "form-control" })
     <br />
-     <b>Birim</b>
+     <b>Сабакты тандоо</b>
      @Html.DropDownListFor(x => x.Birim.BirimID, (List<SelectListItem>)ViewBag.dgr, new { @class = "form-control" })
     <br />
-    <button class="btn btn-info">Personeli Ekle</button>
+    <button class="btn btn-info">Мугалимди кошуу</button>
 </form>

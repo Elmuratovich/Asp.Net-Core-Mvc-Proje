@@ -9,15 +9,19 @@
 
 <br />
 
+<h2 style="text-align: center;">Мугалимдердин тизмеси</h2>
+
+<br />
+
 <table class="table table-bordered">
     <tr>
         <th>ID</th>
-        <th>Ad</th>
-        <th>SoyAd</th>
-        <th>Sehir</th>
-        <th>Birim</th>
-        <th>Sil</th>
-        <th>Guncelle</th>
+        <th>Аты</th>
+        <th>Фамилясы</th>
+        <th>Шаары</th>
+        <th>Сабак</th>
+        <th>Өчүрүү</th>
+        <th>Жаңылоо</th>
     </tr>
     @foreach(var x in Model)
     {
@@ -27,10 +31,10 @@
             <td>@x.Soyad</td>
             <td>@x.Sehir</td>    
             <td>@x.Birim.BirimAd</td>    
-            <td><a href="/Personalim/PersonelSil/@x.PersonelID" class="btn btn-danger">Delete</a></td>
-            <td><a href="/Personelim/PersonelGetir/@x.PersonelID" class="btn btn-success">Update</a></td>
+            <td><a href="/Personelim/PersonelSil/@x.PersonelID" class="btn btn-danger">Өчүрүү</a></td>
+            <td><a href="/Personelim/PersonelGetir/@x.PersonelID" class="btn btn-success">Өзгөртүү</a></td>
         </tr>
     }
 </table>
 
-<a href="/Personelim/YeniPersonel" class="btn btn-primary">Yeni Personal</a>
+<a href="/Personelim/YeniPersonel" class="btn btn-primary">Жаңы мугалим кошуу</a>
